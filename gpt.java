@@ -48,6 +48,7 @@ public class gpt extends JFrame {
 
     public gpt() {
         this.getContentPane().setLayout(null);
+        this.setTitle("Giải phương trình bậc HIGH");
 
         tieude.setBounds(new Rectangle(30, 20, 350, 30));
         tieude.setText("Giải phương trình bậc HIGH");
@@ -111,6 +112,7 @@ public class gpt extends JFrame {
         tieptuc.addActionListener(j);
         thoat.addActionListener(j);
 
+        
         this.setBounds(500, 250, 400, 360);
         this.getContentPane().add(tieude);
         this.setVisible(true);
